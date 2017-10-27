@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.administrator.lab3.MainActivity">
+    <RelativeLayout
+        android:paddingTop="5dp"
+        android:paddingBottom ="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_weight="3"
+        android:id="@+id/relativelayout"
+        android:background="#DDDDDD"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <ImageView
+            android:id="@+id/picture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/shoplist"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"/>
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/back"
+            />
+        <ImageButton
+            android:id="@+id/img"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+        />
+        <TextView
+            android:id="@+id/secondname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/img"
+            android:layout_alignLeft="@+id/back"
+            android:textColor="#D5000000"
+            android:textSize="20sp"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:divider="@drawable/boldhdivider"
+        android:showDividers="end"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <LinearLayout
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_weight="6"
+            android:divider="@drawable/list_divider"
+            android:showDividers="middle"
+            android:layout_height="0dp">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/price"
+                    android:paddingTop="10dp"
+                    android:layout_width="match_parent"
+                    android:text="123"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#D5000000"
+                    android:textSize="18sp"/>
+                <TextView android:id="@+id/details"
+                    android:textColor="#8A000000"
+                    android:text="123123"
+                    android:paddingTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:textSize="12sp"/>
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/shoplist"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:src="@mipmap/shoplist" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="10px"
+            android:background="@color/divider">
+
+        </View>
+        <TextView android:layout_marginLeft="20dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:text="更多产品信息"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    <ListView android:id="@+id/second_listview"
+        android:layout_weight="4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+    </ListView>
+
+</LinearLayout>

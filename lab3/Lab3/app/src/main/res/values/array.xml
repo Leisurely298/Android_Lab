@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="name_array">
+        <item>Arla Milk</item>
+        <item>Borggreve</item>
+        <item>Devondale Milk</item>
+        <item>Enchated Forest</item>
+        <item>Ferrero Rocher</item>
+        <item>Kindle Oasis</item>
+        <item>Lindt</item>
+        <item>Maltesers</item>
+        <item>Mcvitie</item>
+        <item>Waitrose</item>
+    </string-array>
+    <string-array name="name1_array">
+        <item>购物车</item>
+        <item>Arla Milk</item>
+        <item>Borggreve</item>
+        <item>Devondale Milk</item>
+        <item>Enchated Forest</item>
+        <item>Ferrero Rocher</item>
+        <item>Kindle Oasis</item>
+    </string-array>
+
+    <string-array name="firstletter1_array">
+        <item>购</item>
+        <item>A</item>
+        <item>B</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>K</item>
+    </string-array>
+
+    <string-array name="price1_array">
+        <item>价钱</item>
+        <item>¥ 59.00</item>
+        <item>¥ 28.90</item>
+        <item>¥ 79.00</item>
+        <item>¥ 5.00</item>
+        <item>¥ 132.59</item>
+        <item>¥ 2399.00</item>
+    </string-array>
+
+    <string-array name="firstletter_array">
+        <item>A</item>
+        <item>B</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>M</item>
+        <item>W</item>
+    </string-array>
+    <string-array name="price_array">
+        <item>¥ 59.00</item>
+        <item>¥ 28.90</item>
+        <item>¥ 79.00</item>
+        <item>¥ 5.00</item>
+        <item>¥ 132.59</item>
+        <item>¥ 2399.00</item>
+        <item>¥ 139.43</item>
+        <item>¥ 141.43</item>
+        <item>¥ 14.90</item>
+        <item>¥ 179.00</item>
+    </string-array>
+    <string-array name="message_array">
+        <item>产地    德国</item>
+        <item>重量    640g</item>
+        <item>产地    澳大利亚</item>
+        <item>作者    Johanna Basford</item>
+        <item>重量    300g</item>
+        <item>版本    8GB</item>
+        <item>重量    249g</item>
+        <item>重量    118g</item>
+        <item>产地    英国</item>
+        <item>重量    2Kg</item>
+    </string-array>
+    <string-array name="list">
+        <item>一键下单</item>
+        <item>分享商品</item>
+        <item>不感兴趣</item>
+        <item>查看更多促销信息</item>
+    </string-array>
+    <string-array name="picture">
+        <item>@drawable/arla</item>
+        <item>@drawable/borggreve</item>
+        <item>@drawable/devondale</item>
+        <item>@drawable/enchatedforest</item>
+        <item>@drawable/ferrero</item>
+        <item>@drawable/kindle</item>
+        <item>@drawable/lindt</item>
+        <item>@drawable/maltesers</item>
+        <item>@drawable/mcvitie</item>
+        <item>@drawable/waitrose</item>
+    </string-array>
+</resources>
